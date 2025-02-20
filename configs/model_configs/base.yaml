@@ -1,0 +1,17 @@
+# titans/configs/model_configs/base.yaml
+model:
+  input_dim: 768
+  memory_dim: 768
+  num_memory_tokens: 64
+  num_heads: 12
+  num_layers: 2
+  
+  neural_memory:
+    num_layers: 2
+    
+  persistent_memory:
+    num_tokens: 64
+    
+training:
+  batch_size: 32
+  learning_rate: 1e-4

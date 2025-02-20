@@ -1,0 +1,17 @@
+# titans/configs/model_configs/large.yaml
+model:
+  input_dim: 1024
+  memory_dim: 1024
+  num_memory_tokens: 128
+  num_heads: 16
+  num_layers: 3
+  
+  neural_memory:
+    num_layers: 3
+    
+  persistent_memory:
+    num_tokens: 128
+    
+training:
+  batch_size: 16
+  learning_rate: 5e-5

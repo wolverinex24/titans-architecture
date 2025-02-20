@@ -1,0 +1,25 @@
+# Core dependencies
+torch
+transformers
+numpy
+pandas
+pyyaml
+tqdm
+matplotlib
+scikit-learn
+seaborn
+gradio
+
+# Training and optimization
+wandb
+pytorch-lightning
+
+# Testing and development
+pytest
+black
+isort
+flake8
+
+# Optional dependencies
+einops
+# flash-attn>=2.0.0  # For efficient attention implementation

@@ -1,0 +1,46 @@
+Training Script (train.py):
+
+
+Command-line interface for training
+Configuration loading
+Data preprocessing
+Training loop with checkpointing
+
+
+Evaluation Script (evaluate.py):
+
+
+Model evaluation metrics
+Checkpoint loading
+Batch processing
+Metric tracking
+
+
+Inference Script (inference.py):
+
+
+Text generation
+Memory state management
+Configuration-based inference settings
+
+Usage Examples:
+
+Training:
+
+python -m titans.scripts.train \
+    --config base \
+    --data_path /path/to/data \
+    --output_dir ./outputs
+
+Evaluation:
+
+python -m titans.scripts.evaluate \
+    --checkpoint ./outputs/checkpoints/latest.pt \
+    --data_path /path/to/eval_data
+
+Inference:
+
+python -m titans.scripts.inference \
+    --checkpoint ./outputs/checkpoints/latest.pt \
+    --input_text "Once upon a time" \
+    --max_new_tokens 100

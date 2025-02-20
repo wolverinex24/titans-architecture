@@ -1,0 +1,85 @@
+# titans/configs/default_config.yaml
+model:
+  # Model architecture
+  name: "titans-mac"
+  input_dim: 768
+  memory_dim: 768
+  num_memory_tokens: 64
+  num_heads: 8
+  num_layers: 2
+  dropout: 0.1
+  
+  # Memory configuration
+  neural_memory:
+    num_layers: 2
+    momentum_factor: 0.9
+    forget_factor: 0.1
+    update_gate_bias: 1.0
+    layer_norm_eps: 1e-5
+    
+  persistent_memory:
+    num_tokens: 64
+    init_scale: 0.02
+    
+  attention:
+    head_dim: 64
+    dropout: 0.1
+    attention_dropout: 0.1
+    
+  sequence:
+    max_length: 8192  # 8K sequence length
+    chunk_size: 2048
+    stride: 1024
+
+training:
+  # Training parameters
+  batch_size: 32
+  learning_rate: 1e-4
+  weight_decay: 0.01
+  max_epochs: 100
+  warmup_steps: 1000
+  
+  # Optimization
+  optimizer:
+    type: "adamw"
+    beta1: 0.9
+    beta2: 0.999
+    eps: 1e-8
+    gradient_clip: 1.0
+    
+  scheduler:
+    type: "cosine"
+    num_cycles: 0.5
+    min_lr_factor: 0.1
+    
+  # Memory training
+  memory_training:
+    memory_loss_weight: 0.1
+    surprise_threshold: 0.1
+    min_surprise_rate: 0.01
+
+validation:
+  eval_steps: 1000
+  save_steps: 5000
+  max_checkpoints: 5
+  eval_batch_size: 64
+
+inference:
+  generation:
+    max_new_tokens: 100
+    temperature: 0.8
+    top_k: 50
+    top_p: 0.9
+    
+  memory:
+    max_cached_memories: 10
+    cleanup_threshold: 0.8
+
+logging:
+  log_level: "INFO"
+  log_steps: 100
+  tensorboard: true
+  wandb:
+    enabled: false
+    project: "titans"
+    entity: null
