@@ -74,26 +74,16 @@ pip install -r requirements.txt
 ### Usage Examples:
 ```bash
 # Prepare Data
-python -m titans.scripts.utils.prepare_data \
-    --input_files data/*.txt \
-    --output_dir processed_data
+python -m scripts.utils.prepare_data --input_files data/yourTextFileName.txt --output_dir processed_data
     
 # Training
-python -m titans.scripts.train \
-    --config base \
-    --data_path /path/to/data \
-    --output_dir ./outputs
+python -m scripts.train --config base --data_path /path/to/data --output_dir ./outputs
 
 # Evaluation
-python -m titans.scripts.evaluate \
-    --checkpoint ./outputs/checkpoints/latest.pt \
-    --data_path /path/to/eval_data
+python -m scripts.evaluate --checkpoint ./outputs/checkpoints/latest.pt --data_path /path/to/eval_data
 
 # Inference
-python -m titans.scripts.inference \
-    --checkpoint ./outputs/checkpoints/latest.pt \
-    --input_text "Once upon a time" \
-    --max_new_tokens 100
+python -m scripts.inference --checkpoint ./outputs/checkpoints/latest.pt --input_text "Once upon a time" --max_new_tokens 100
 ```
 
 ## Project Structure
