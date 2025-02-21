@@ -4,11 +4,11 @@ import torch
 import torch.nn as nn
 from typing import Optional, Dict, Any
 from torch.utils.data import DataLoader
-from ..core.models import TitansMAC
-from ..utils.metrics import MetricsTracker, compute_metrics
-from ..utils.checkpoint import CheckpointManager
-from ..utils.logging import setup_logger
-from ..data import create_dataloader
+from core.models import TitansMAC
+from utils.metrics import MetricsTracker, compute_metrics
+from utils.checkpoint import CheckpointManager
+from utils.logging import setup_logger
+from data import create_dataloader
 from tqdm import tqdm
 
 class TitansTrainer:

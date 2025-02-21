@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from ..memory import NeuralMemoryModule, PersistentMemory
 from ..attention import MultiHeadAttention, attention_utils
-from ...utils.config import ModelConfig
+from utils.config import ModelConfig
 from typing import Optional, Tuple, Dict
 
 class TitansMAC(nn.Module):

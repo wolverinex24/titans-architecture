@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from typing import Optional, Tuple
-from ...utils.metrics import MemoryMetrics
+from utils.metrics import MemoryMetrics
 
 class NeuralMemoryModule(nn.Module):
     def __init__(
