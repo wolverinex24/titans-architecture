@@ -2,7 +2,6 @@
 from typing import List, Optional, Union
 import torch
 from transformers import PreTrainedTokenizer
-from ..utils.logging import setup_logger
 
 class SequenceProcessor:
     def __init__(
