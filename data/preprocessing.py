@@ -1,12 +1,12 @@
 # titans/data/preprocessing.py
 from typing import List, Optional, Union
 import torch
-from transformers import PreTrainedTokenizer
+from transformers import GPT2Tokenizer
 
 class SequenceProcessor:
     def __init__(
         self,
-        tokenizer: PreTrainedTokenizer,
+        tokenizer: GPT2Tokenizer,
         max_length: int = 8192,
         stride: Optional[int] = None
     ):

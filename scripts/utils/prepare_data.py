@@ -2,7 +2,7 @@
 import torch
 from pathlib import Path
 from typing import List, Dict
-from transformers import PreTrainedTokenizer
+from transformers import GPT2Tokenizer
 import argparse
 from data.preprocessing import SequenceProcessor
 from utils.logging import setup_logger
@@ -17,7 +17,7 @@ def prepare_dataset(
     """Prepare and preprocess dataset files."""
     logger = setup_logger("data_preparation")
     processor = SequenceProcessor(
-        PreTrainedTokenizer.from_pretrained('gpt2'),
+        GPT2Tokenizer.from_pretrained('gpt2'),
         max_length=max_length
     )
     
