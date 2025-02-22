@@ -61,7 +61,7 @@ class TitansTrainer:
     def compute_loss(outputs: torch.Tensor, labels: torch.Tensor) -> torch.Tensor:
         """Compute training loss."""
         return nn.functional.cross_entropy(
-            outputs.view(-1, outputs.size(-1)),
+            outputs.reshape(-1, outputs.size(-1)),
             labels.view(-1),
             ignore_index=-100
         )

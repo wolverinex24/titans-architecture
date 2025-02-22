@@ -37,6 +37,7 @@ class SequenceProcessor:
                 text,
                 add_special_tokens=add_special_tokens,
                 return_tensors="pt",
+                max_length=self.max_length,
                 truncation=False
             )["input_ids"].squeeze(0)
             
