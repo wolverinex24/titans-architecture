@@ -77,13 +77,13 @@ pip install -r requirements.txt
 python -m scripts.utils.prepare_data --input_files data/yourTextFileName.txt --output_dir processed_data
     
 # Training
-python -m scripts.train --config base --data_path /path/to/data --output_dir ./outputs
+python -m scripts.train --config small --data_path w:\DLearning\titan\Titan_Architecture\titans\processed_data\data_processed.pt --output_dir ./outputs --save_every 10
 
 # Evaluation
 python -m scripts.evaluate --checkpoint ./outputs/checkpoints/latest.pt --data_path /path/to/eval_data
 
 # Inference
-python -m scripts.inference --checkpoint ./outputs/checkpoints/latest.pt --input_text "Once upon a time" --max_new_tokens 100
+python -m scripts.inference --checkpoint ./outputs/checkpoints/checkpoint_9.pt --config small --input_text "hi" --max_new_tokens 50
 ```
 
 ## Project Structure
