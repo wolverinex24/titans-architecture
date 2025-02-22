@@ -3,8 +3,8 @@
 import torch
 from typing import Optional, Dict
 import numpy as np
-from ..utils.metrics import MemoryMetrics
-from ..core.memory import NeuralMemoryModule
+from utils.metrics import MemoryMetrics
+from core.memory import NeuralMemoryModule
 
 class MemoryManager:
     def __init__(

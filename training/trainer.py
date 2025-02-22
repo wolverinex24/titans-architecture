@@ -5,7 +5,7 @@ import torch.nn as nn
 from typing import Optional, Dict, Any
 from torch.utils.data import DataLoader
 from core.models import TitansMAC
-from utils.metrics import MetricsTracker, compute_metrics
+from utils.metrics import MetricsTracker
 from utils.checkpoint import CheckpointManager
 from utils.logging import setup_logger
 from data import create_dataloader

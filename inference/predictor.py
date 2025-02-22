@@ -3,10 +3,10 @@
 import torch
 import torch.nn as nn
 from typing import Optional, Dict, List, Union, Tuple
-from ..core.models import TitansMAC
-from ..data.preprocessing import SequenceProcessor
+from core.models import TitansMAC
+from data.preprocessing import SequenceProcessor
 from .memory_management import MemoryManager
-from ..utils.logging import setup_logger
+from utils.logging import setup_logger
 
 class TitansPredictor:
     def __init__(
