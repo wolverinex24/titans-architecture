@@ -31,7 +31,7 @@ training:
   batch_size: 4        # Reduced from 32
   learning_rate: 1e-4
   weight_decay: 0.01
-  max_epochs: 10
+  max_epochs: 5
   warmup_steps: 1000
   gradient_clip: 1.0
   

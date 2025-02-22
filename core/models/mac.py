@@ -110,7 +110,8 @@ class TitansMAC(nn.Module):
         self,
         inputs: torch.Tensor,  # [B, T] Long tensor of token IDs
         memory_state: Optional[torch.Tensor] = None,
-        attention_mask: Optional[torch.Tensor] = None
+        attention_mask: Optional[torch.Tensor] = None,
+        is_inference: bool = False
     ) -> Tuple[torch.Tensor, torch.Tensor]:
         batch_size, seq_length = inputs.size()
         
@@ -120,9 +121,19 @@ class TitansMAC(nn.Module):
         # Get persistent memory tokens
         persistent_tokens = self.persistent_memory(batch_size)  # [B, Np, D]
         
+        # Handle memory_state if it's a tuple
+        if isinstance(memory_state, tuple):
+            memory_state = memory_state[0]
+        elif memory_state is None:
+            memory_state = torch.zeros(batch_size, self.neural_memory.memory_dim, device=inputs.device)
+        
         # Update and retrieve from neural memory
-        memory_state, momentum = self.neural_memory(inputs_emb, memory_state)
-        memory_out = self.neural_memory.retrieve(inputs_emb, memory_state)  # [B, T, D]
+        memory_output, new_memory_state = self.neural_memory(
+            inputs_emb, 
+            memory_state=memory_state.detach().clone() if torch.is_tensor(memory_state) else memory_state,
+            is_inference=is_inference
+        )
+        memory_out = self.neural_memory.retrieve(inputs_emb, new_memory_state)  # [B, T, D]
         
         # Combine sequence
         combined = torch.cat([
@@ -160,4 +171,4 @@ class TitansMAC(nn.Module):
         # Only keep the relevant part of the output (matching input length)
         logits = logits[:, :seq_length, :]
         
-        return logits, memory_state
+        return logits, new_memory_state
