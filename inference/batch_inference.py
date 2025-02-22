@@ -2,7 +2,7 @@
 import torch
 from .predictor import TitansPredictor
 from .memory_management import MemoryManager
-from ..utils.logging import setup_logger
+from  utils.logging import setup_logger
 from typing import Dict, List, Optional
 from tqdm import tqdm
 

@@ -6,8 +6,10 @@ from pathlib import Path
 from transformers import PreTrainedTokenizer
 
 from core.models.mac import TitansMAC
-from data.dataset import TitansDataset, create_dataloader, SequenceProcessor
-from utils.logging import ConfigLoader, setup_logger, MetricsTracker
+from data.dataset import TitansDataset, SequenceProcessor
+from data.dataloader import create_dataloader
+from utils.logging import ConfigLoader, setup_logger
+from utils.metrics import MetricsTracker
 
 def evaluate(model, dataloader, device):
     model.eval()

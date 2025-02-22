@@ -3,7 +3,7 @@
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from typing import Optional, Dict, Any
-from ..utils.optimization import get_optimizer_groups
+from utils.optimization import get_optimizer_groups
 
 def get_optimizer(
     model_params,
