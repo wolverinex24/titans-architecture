@@ -84,6 +84,9 @@ python -m scripts.evaluate --checkpoint ./outputs/checkpoints/latest.pt --data_p
 
 # Inference
 python -m scripts.inference --checkpoint ./outputs/checkpoints/checkpoint_9.pt --config small --input_text "hi" --max_new_tokens 50
+
+# Gradio
+python -m titans.scripts.utils.interactive_demo --checkpoint path/to/checkpoint --config small
 ```
 
 ## Project Structure
