@@ -1,17 +1,17 @@
 # titans/configs/model_configs/base.yaml
 model:
-  input_dim: 768
-  memory_dim: 768
-  num_memory_tokens: 64
-  num_heads: 12
+  input_dim: 512
+  memory_dim: 512
+  num_memory_tokens: 32
+  num_heads: 8
   num_layers: 2
+  vocab_size: 50000
   
-  neural_memory:
-    num_layers: 2
-    
-  persistent_memory:
-    num_tokens: 64
-    
+  sequence:
+    max_length: 1024
+    chunk_size: 512
+    stride: 256
+
 training:
-  batch_size: 32
+  batch_size: 4
   learning_rate: 1e-4

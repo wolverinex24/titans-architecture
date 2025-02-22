@@ -1,0 +1,318 @@
+2025-02-22 10:36:53,354 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 10:45:25,068 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 10:45:27,359 - titans_training - INFO - Loading and processing data...
+2025-02-22 11:02:11,301 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:02:11,301 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:02:11,318 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:06:29,390 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:06:29,390 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:06:29,391 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:06:30,931 - titans_training - INFO - Starting training...
+2025-02-22 11:16:43,644 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:16:43,644 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:16:43,645 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:16:44,552 - titans_training - INFO - Starting training...
+2025-02-22 11:19:16,409 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:19:16,409 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:19:16,410 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:19:17,293 - titans_training - INFO - Starting training...
+2025-02-22 11:30:35,692 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:30:35,692 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:30:35,693 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:30:36,621 - titans_training - INFO - Starting training...
+2025-02-22 11:52:08,587 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:52:08,587 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:52:08,589 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:52:09,785 - titans_training - INFO - Starting training...
+2025-02-22 11:54:52,328 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:54:52,328 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:54:52,329 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:54:53,538 - titans_training - INFO - Starting training...
+2025-02-22 11:56:24,107 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:56:24,107 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:56:24,108 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:56:25,317 - titans_training - INFO - Starting training...
+2025-02-22 11:57:24,314 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:57:24,315 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:57:24,316 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:57:25,518 - titans_training - INFO - Starting training...
+2025-02-22 11:58:12,965 - titans_training - INFO - Starting training with configuration: base
+2025-02-22 11:58:12,965 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 11:58:12,981 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 11:58:14,181 - titans_training - INFO - Starting training...
+2025-02-22 12:15:09,349 - titans_training - INFO - Starting training with configuration: small
+2025-02-22 12:15:09,350 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 12:15:09,351 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 12:15:39,644 - titans_training - INFO - Starting training with configuration: small
+2025-02-22 12:15:39,644 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 12:15:39,645 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 12:15:40,985 - titans_training - INFO - Starting training...
+2025-02-22 12:15:45,882 - titans_training - INFO - Epoch 0: {'loss': 10.638753890991211}
+2025-02-22 12:15:49,915 - titans_training - INFO - Epoch 1: {'loss': 10.666041374206543}
+2025-02-22 12:15:53,709 - titans_training - INFO - Epoch 2: {'loss': 9.491987228393555}
+2025-02-22 12:15:57,420 - titans_training - INFO - Epoch 3: {'loss': 7.932137966156006}
+2025-02-22 12:16:01,009 - titans_training - INFO - Epoch 4: {'loss': 7.804892063140869}
+2025-02-22 12:16:04,495 - titans_training - INFO - Epoch 5: {'loss': 7.407047271728516}
+2025-02-22 12:16:08,170 - titans_training - INFO - Epoch 6: {'loss': 5.245513439178467}
+2025-02-22 12:16:11,428 - titans_training - INFO - Epoch 7: {'loss': 5.155654430389404}
+2025-02-22 12:16:14,905 - titans_training - INFO - Epoch 8: {'loss': 4.318301677703857}
+2025-02-22 12:16:18,104 - titans_training - INFO - Epoch 9: {'loss': 3.5543296337127686}
+2025-02-22 12:16:21,530 - titans_training - INFO - Epoch 10: {'loss': 3.2760727405548096}
+2025-02-22 12:16:24,863 - titans_training - INFO - Epoch 11: {'loss': 2.750521659851074}
+2025-02-22 12:16:28,142 - titans_training - INFO - Epoch 12: {'loss': 2.621842861175537}
+2025-02-22 12:16:31,338 - titans_training - INFO - Epoch 13: {'loss': 3.8244435787200928}
+2025-02-22 12:16:34,780 - titans_training - INFO - Epoch 14: {'loss': 1.8415744304656982}
+2025-02-22 12:16:37,922 - titans_training - INFO - Epoch 15: {'loss': 2.7565035820007324}
+2025-02-22 12:16:41,115 - titans_training - INFO - Epoch 16: {'loss': 1.7781645059585571}
+2025-02-22 12:16:44,398 - titans_training - INFO - Epoch 17: {'loss': 1.710880994796753}
+2025-02-22 12:16:47,728 - titans_training - INFO - Epoch 18: {'loss': 1.6363255977630615}
+2025-02-22 12:16:50,853 - titans_training - INFO - Epoch 19: {'loss': 1.5307437181472778}
+2025-02-22 12:16:53,906 - titans_training - INFO - Epoch 20: {'loss': 1.5083750486373901}
+2025-02-22 12:16:57,184 - titans_training - INFO - Epoch 21: {'loss': 1.388149619102478}
+2025-02-22 12:17:00,138 - titans_training - INFO - Epoch 22: {'loss': 1.3853362798690796}
+2025-02-22 12:17:03,134 - titans_training - INFO - Epoch 23: {'loss': 1.3069266080856323}
+2025-02-22 12:17:06,019 - titans_training - INFO - Epoch 24: {'loss': 1.2881605625152588}
+2025-02-22 12:17:09,109 - titans_training - INFO - Epoch 25: {'loss': 1.2734110355377197}
+2025-02-22 12:17:11,988 - titans_training - INFO - Epoch 26: {'loss': 1.2769629955291748}
+2025-02-22 12:17:15,087 - titans_training - INFO - Epoch 27: {'loss': 1.2486908435821533}
+2025-02-22 12:17:18,326 - titans_training - INFO - Epoch 28: {'loss': 1.2343116998672485}
+2025-02-22 12:17:21,242 - titans_training - INFO - Epoch 29: {'loss': 1.2562403678894043}
+2025-02-22 12:17:24,301 - titans_training - INFO - Epoch 30: {'loss': 1.2428010702133179}
+2025-02-22 12:17:27,332 - titans_training - INFO - Epoch 31: {'loss': 1.206641674041748}
+2025-02-22 12:17:30,498 - titans_training - INFO - Epoch 32: {'loss': 1.2067644596099854}
+2025-02-22 12:17:33,468 - titans_training - INFO - Epoch 33: {'loss': 1.1854594945907593}
+2025-02-22 12:17:36,506 - titans_training - INFO - Epoch 34: {'loss': 1.1797977685928345}
+2025-02-22 12:17:39,378 - titans_training - INFO - Epoch 35: {'loss': 1.1707361936569214}
+2025-02-22 12:17:42,497 - titans_training - INFO - Epoch 36: {'loss': 1.160448431968689}
+2025-02-22 12:17:45,347 - titans_training - INFO - Epoch 37: {'loss': 1.1485995054244995}
+2025-02-22 12:17:48,537 - titans_training - INFO - Epoch 38: {'loss': 1.1447817087173462}
+2025-02-22 12:17:51,401 - titans_training - INFO - Epoch 39: {'loss': 1.1339961290359497}
+2025-02-22 12:17:54,523 - titans_training - INFO - Epoch 40: {'loss': 2.237421989440918}
+2025-02-22 12:17:57,445 - titans_training - INFO - Epoch 41: {'loss': 2.164785623550415}
+2025-02-22 12:18:00,486 - titans_training - INFO - Epoch 42: {'loss': 1.8233126401901245}
+2025-02-22 12:18:03,432 - titans_training - INFO - Epoch 43: {'loss': 1.5036442279815674}
+2025-02-22 12:18:06,487 - titans_training - INFO - Epoch 44: {'loss': 1.355058193206787}
+2025-02-22 12:18:09,362 - titans_training - INFO - Epoch 45: {'loss': 1.2652153968811035}
+2025-02-22 12:18:12,548 - titans_training - INFO - Epoch 46: {'loss': 1.220650315284729}
+2025-02-22 12:18:15,719 - titans_training - INFO - Epoch 47: {'loss': 1.2059669494628906}
+2025-02-22 12:18:18,626 - titans_training - INFO - Epoch 48: {'loss': 1.1884310245513916}
+2025-02-22 12:18:21,688 - titans_training - INFO - Epoch 49: {'loss': 1.178447961807251}
+2025-02-22 12:18:24,569 - titans_training - INFO - Epoch 50: {'loss': 1.1726027727127075}
+2025-02-22 12:18:27,691 - titans_training - INFO - Epoch 51: {'loss': 1.1697394847869873}
+2025-02-22 12:18:30,589 - titans_training - INFO - Epoch 52: {'loss': 1.1654698848724365}
+2025-02-22 12:18:33,681 - titans_training - INFO - Epoch 53: {'loss': 1.177112102508545}
+2025-02-22 12:18:36,730 - titans_training - INFO - Epoch 54: {'loss': 1.1604639291763306}
+2025-02-22 12:18:39,628 - titans_training - INFO - Epoch 55: {'loss': 1.1589800119400024}
+2025-02-22 12:18:42,510 - titans_training - INFO - Epoch 56: {'loss': 1.156322956085205}
+2025-02-22 12:18:45,334 - titans_training - INFO - Epoch 57: {'loss': 1.1477713584899902}
+2025-02-22 12:18:48,211 - titans_training - INFO - Epoch 58: {'loss': 1.1221922636032104}
+2025-02-22 12:18:51,294 - titans_training - INFO - Epoch 59: {'loss': 5.252811431884766}
+2025-02-22 12:18:54,177 - titans_training - INFO - Epoch 60: {'loss': 1.4550225734710693}
+2025-02-22 12:18:57,091 - titans_training - INFO - Epoch 61: {'loss': 4.012805938720703}
+2025-02-22 12:18:59,887 - titans_training - INFO - Epoch 62: {'loss': 2.0231783390045166}
+2025-02-22 12:19:02,794 - titans_training - INFO - Epoch 63: {'loss': 1.4478509426116943}
+2025-02-22 12:19:05,898 - titans_training - INFO - Epoch 64: {'loss': 1.3364518880844116}
+2025-02-22 12:19:08,765 - titans_training - INFO - Epoch 65: {'loss': 1.23468816280365}
+2025-02-22 12:19:11,917 - titans_training - INFO - Epoch 66: {'loss': 1.1928619146347046}
+2025-02-22 12:19:14,767 - titans_training - INFO - Epoch 67: {'loss': 1.156282663345337}
+2025-02-22 12:19:17,899 - titans_training - INFO - Epoch 68: {'loss': 1.1783390045166016}
+2025-02-22 12:19:20,775 - titans_training - INFO - Epoch 69: {'loss': 1.119066596031189}
+2025-02-22 12:19:23,855 - titans_training - INFO - Epoch 70: {'loss': 1.1070901155471802}
+2025-02-22 12:19:26,741 - titans_training - INFO - Epoch 71: {'loss': 1.3953639268875122}
+2025-02-22 12:19:29,635 - titans_training - INFO - Epoch 72: {'loss': 1.3111776113510132}
+2025-02-22 12:19:32,456 - titans_training - INFO - Epoch 73: {'loss': 1.1143255233764648}
+2025-02-22 12:19:35,281 - titans_training - INFO - Epoch 74: {'loss': 1.1887190341949463}
+2025-02-22 12:19:38,259 - titans_training - INFO - Epoch 75: {'loss': 1.1418354511260986}
+2025-02-22 12:19:41,183 - titans_training - INFO - Epoch 76: {'loss': 1.1760759353637695}
+2025-02-22 12:19:44,260 - titans_training - INFO - Epoch 77: {'loss': 1.2023475170135498}
+2025-02-22 12:19:47,131 - titans_training - INFO - Epoch 78: {'loss': 1.0992622375488281}
+2025-02-22 12:19:50,255 - titans_training - INFO - Epoch 79: {'loss': 1.0735750198364258}
+2025-02-22 12:19:53,170 - titans_training - INFO - Epoch 80: {'loss': 1.803623914718628}
+2025-02-22 12:19:56,262 - titans_training - INFO - Epoch 81: {'loss': 1.3112272024154663}
+2025-02-22 12:19:59,142 - titans_training - INFO - Epoch 82: {'loss': 1.414681077003479}
+2025-02-22 12:20:02,265 - titans_training - INFO - Epoch 83: {'loss': 1.3972959518432617}
+2025-02-22 12:20:05,167 - titans_training - INFO - Epoch 84: {'loss': 1.4542547464370728}
+2025-02-22 12:20:08,263 - titans_training - INFO - Epoch 85: {'loss': 1.272794246673584}
+2025-02-22 12:20:11,150 - titans_training - INFO - Epoch 86: {'loss': 1.2966816425323486}
+2025-02-22 12:20:14,234 - titans_training - INFO - Epoch 87: {'loss': 1.269378662109375}
+2025-02-22 12:20:17,173 - titans_training - INFO - Epoch 88: {'loss': 1.2078713178634644}
+2025-02-22 12:20:20,263 - titans_training - INFO - Epoch 89: {'loss': 1.1822916269302368}
+2025-02-22 12:20:23,167 - titans_training - INFO - Epoch 90: {'loss': 1.2043248414993286}
+2025-02-22 12:20:26,241 - titans_training - INFO - Epoch 91: {'loss': 1.1420828104019165}
+2025-02-22 12:20:29,159 - titans_training - INFO - Epoch 92: {'loss': 1.1855984926223755}
+2025-02-22 12:20:32,237 - titans_training - INFO - Epoch 93: {'loss': 1.0693961381912231}
+2025-02-22 12:20:35,136 - titans_training - INFO - Epoch 94: {'loss': 1.1368271112442017}
+2025-02-22 12:20:38,232 - titans_training - INFO - Epoch 95: {'loss': 3.4845526218414307}
+2025-02-22 12:20:41,166 - titans_training - INFO - Epoch 96: {'loss': 2.7581889629364014}
+2025-02-22 12:20:44,237 - titans_training - INFO - Epoch 97: {'loss': 2.99001145362854}
+2025-02-22 12:20:47,143 - titans_training - INFO - Epoch 98: {'loss': 2.5174405574798584}
+2025-02-22 12:20:50,072 - titans_training - INFO - Epoch 99: {'loss': 2.5736513137817383}
+2025-02-22 12:20:50,083 - titans_training - INFO - Training completed!
+2025-02-22 12:29:28,084 - titans_training - INFO - Starting training with configuration: small
+2025-02-22 12:29:28,084 - titans_training - INFO - Loading preprocessed data...
+2025-02-22 12:29:28,085 - titans_training - INFO - Loaded 1 sequences
+2025-02-22 12:29:29,069 - titans_training - INFO - Starting training...
+2025-02-22 12:29:33,575 - titans_training - INFO - Epoch 0: {'loss': 10.755115509033203}
+2025-02-22 12:29:37,485 - titans_training - INFO - Epoch 1: {'loss': 12.25573444366455}
+2025-02-22 12:29:37,495 - titans_training - INFO - Training completed!
+2025-02-22 12:39:46,848 - titans_training - INFO - Epoch 0: {'loss': 10.186951637268066}
+2025-02-22 12:39:50,218 - titans_training - INFO - Epoch 1: {'loss': 13.458961486816406}
+2025-02-22 12:51:42,335 - titans_training - INFO - Will save checkpoints every 2 epochs
+2025-02-22 12:51:46,568 - titans_training - INFO - Epoch 0: {'loss': 10.70522403717041}
+2025-02-22 12:51:50,012 - titans_training - INFO - Epoch 1: {'loss': 8.939825057983398}
+2025-02-22 12:51:50,012 - titans_training - INFO - Saving checkpoint at epoch 2
+2025-02-22 12:54:20,900 - titans_training - INFO - Will save checkpoints every 10 epochs
+2025-02-22 12:54:25,717 - titans_training - INFO - Epoch 0: {'loss': 11.558438301086426}
+2025-02-22 12:54:29,782 - titans_training - INFO - Epoch 1: {'loss': 11.2134428024292}
+2025-02-22 12:54:33,710 - titans_training - INFO - Epoch 2: {'loss': 10.72833251953125}
+2025-02-22 12:54:37,074 - titans_training - INFO - Epoch 3: {'loss': 9.515105247497559}
+2025-02-22 12:54:40,536 - titans_training - INFO - Epoch 4: {'loss': 10.071416854858398}
+2025-02-22 12:54:43,939 - titans_training - INFO - Epoch 5: {'loss': 8.674612045288086}
+2025-02-22 12:54:47,343 - titans_training - INFO - Epoch 6: {'loss': 7.6703925132751465}
+2025-02-22 12:54:50,544 - titans_training - INFO - Epoch 7: {'loss': 6.483938694000244}
+2025-02-22 12:54:53,731 - titans_training - INFO - Epoch 8: {'loss': 5.435138702392578}
+2025-02-22 12:54:56,861 - titans_training - INFO - Epoch 9: {'loss': 4.8375468254089355}
+2025-02-22 12:54:56,862 - titans_training - INFO - Saving checkpoint at epoch 10
+2025-02-22 12:55:02,411 - titans_training - INFO - Epoch 10: {'loss': 4.454897880554199}
+2025-02-22 12:55:06,080 - titans_training - INFO - Epoch 11: {'loss': 3.9057111740112305}
+2025-02-22 12:55:09,733 - titans_training - INFO - Epoch 12: {'loss': 3.257997989654541}
+2025-02-22 12:55:13,200 - titans_training - INFO - Epoch 13: {'loss': 3.0578842163085938}
+2025-02-22 12:55:16,796 - titans_training - INFO - Epoch 14: {'loss': 2.4876463413238525}
+2025-02-22 12:55:20,101 - titans_training - INFO - Epoch 15: {'loss': 2.278552293777466}
+2025-02-22 12:55:23,328 - titans_training - INFO - Epoch 16: {'loss': 1.9295599460601807}
+2025-02-22 12:55:26,442 - titans_training - INFO - Epoch 17: {'loss': 1.8230245113372803}
+2025-02-22 12:55:29,702 - titans_training - INFO - Epoch 18: {'loss': 1.703755259513855}
+2025-02-22 12:55:32,767 - titans_training - INFO - Epoch 19: {'loss': 1.6180866956710815}
+2025-02-22 12:55:32,768 - titans_training - INFO - Saving checkpoint at epoch 20
+2025-02-22 12:55:37,726 - titans_training - INFO - Epoch 20: {'loss': 2.292196750640869}
+2025-02-22 12:55:40,741 - titans_training - INFO - Epoch 21: {'loss': 1.4528006315231323}
+2025-02-22 12:55:43,964 - titans_training - INFO - Epoch 22: {'loss': 1.450363278388977}
+2025-02-22 12:55:46,928 - titans_training - INFO - Epoch 23: {'loss': 1.363334059715271}
+2025-02-22 12:55:49,899 - titans_training - INFO - Epoch 24: {'loss': 1.6011632680892944}
+2025-02-22 12:55:52,786 - titans_training - INFO - Epoch 25: {'loss': 1.331697940826416}
+2025-02-22 12:55:55,713 - titans_training - INFO - Epoch 26: {'loss': 1.4053857326507568}
+2025-02-22 12:55:58,915 - titans_training - INFO - Epoch 27: {'loss': 1.3696026802062988}
+2025-02-22 12:56:01,859 - titans_training - INFO - Epoch 28: {'loss': 1.2919596433639526}
+2025-02-22 12:56:04,928 - titans_training - INFO - Epoch 29: {'loss': 1.2804993391036987}
+2025-02-22 12:56:04,929 - titans_training - INFO - Saving checkpoint at epoch 30
+2025-02-22 12:56:08,846 - titans_training - INFO - Epoch 30: {'loss': 1.235052466392517}
+2025-02-22 12:56:12,098 - titans_training - INFO - Epoch 31: {'loss': 1.2162383794784546}
+2025-02-22 12:56:15,090 - titans_training - INFO - Epoch 32: {'loss': 1.2091474533081055}
+2025-02-22 12:56:17,997 - titans_training - INFO - Epoch 33: {'loss': 1.1911389827728271}
+2025-02-22 12:56:20,907 - titans_training - INFO - Epoch 34: {'loss': 1.1812340021133423}
+2025-02-22 12:56:23,860 - titans_training - INFO - Epoch 35: {'loss': 1.7395319938659668}
+2025-02-22 12:56:26,904 - titans_training - INFO - Epoch 36: {'loss': 1.5219415426254272}
+2025-02-22 12:56:29,794 - titans_training - INFO - Epoch 37: {'loss': 1.4176629781723022}
+2025-02-22 12:56:32,924 - titans_training - INFO - Epoch 38: {'loss': 1.3077794313430786}
+2025-02-22 12:56:35,870 - titans_training - INFO - Epoch 39: {'loss': 1.2239428758621216}
+2025-02-22 12:56:35,870 - titans_training - INFO - Saving checkpoint at epoch 40
+2025-02-22 12:56:39,771 - titans_training - INFO - Epoch 40: {'loss': 1.1797993183135986}
+2025-02-22 12:56:42,724 - titans_training - INFO - Epoch 41: {'loss': 1.1499558687210083}
+2025-02-22 12:56:45,914 - titans_training - INFO - Epoch 42: {'loss': 1.1441105604171753}
+2025-02-22 12:56:48,819 - titans_training - INFO - Epoch 43: {'loss': 5.722168922424316}
+2025-02-22 12:56:51,930 - titans_training - INFO - Epoch 44: {'loss': 13.772160530090332}
+2025-02-22 12:56:54,885 - titans_training - INFO - Epoch 45: {'loss': 3.5456130504608154}
+2025-02-22 12:56:57,884 - titans_training - INFO - Epoch 46: {'loss': 2.9870991706848145}
+2025-02-22 12:57:00,776 - titans_training - INFO - Epoch 47: {'loss': 1.1260486841201782}
+2025-02-22 12:57:04,149 - titans_training - INFO - Epoch 48: {'loss': 1.1236034631729126}
+2025-02-22 12:57:07,122 - titans_training - INFO - Epoch 49: {'loss': 1.6513333320617676}
+2025-02-22 12:57:07,123 - titans_training - INFO - Saving checkpoint at epoch 50
+2025-02-22 12:57:10,891 - titans_training - INFO - Epoch 50: {'loss': 1.1227818727493286}
+2025-02-22 12:57:13,794 - titans_training - INFO - Epoch 51: {'loss': 1.3373264074325562}
+2025-02-22 12:57:16,725 - titans_training - INFO - Epoch 52: {'loss': 1.1262236833572388}
+2025-02-22 12:57:19,684 - titans_training - INFO - Epoch 53: {'loss': 1.1572082042694092}
+2025-02-22 12:57:22,621 - titans_training - INFO - Epoch 54: {'loss': 1.2041479349136353}
+2025-02-22 12:57:25,664 - titans_training - INFO - Epoch 55: {'loss': 3.337075710296631}
+2025-02-22 12:57:28,580 - titans_training - INFO - Epoch 56: {'loss': 20.242124557495117}
+2025-02-22 12:57:31,498 - titans_training - INFO - Epoch 57: {'loss': 19.756668090820312}
+2025-02-22 12:57:34,422 - titans_training - INFO - Epoch 58: {'loss': 18.34070587158203}
+2025-02-22 12:57:37,340 - titans_training - INFO - Epoch 59: {'loss': 16.430227279663086}
+2025-02-22 12:57:37,340 - titans_training - INFO - Saving checkpoint at epoch 60
+2025-02-22 12:57:41,135 - titans_training - INFO - Epoch 60: {'loss': 15.106468200683594}
+2025-02-22 12:57:44,106 - titans_training - INFO - Epoch 61: {'loss': 11.97196102142334}
+2025-02-22 12:57:47,085 - titans_training - INFO - Epoch 62: {'loss': 9.555808067321777}
+2025-02-22 12:57:50,070 - titans_training - INFO - Epoch 63: {'loss': 5.9824957847595215}
+2025-02-22 12:57:53,270 - titans_training - INFO - Epoch 64: {'loss': 4.000265598297119}
+2025-02-22 12:57:56,178 - titans_training - INFO - Epoch 65: {'loss': 2.3001277446746826}
+2025-02-22 12:57:59,303 - titans_training - INFO - Epoch 66: {'loss': 1.447576642036438}
+2025-02-22 12:58:02,265 - titans_training - INFO - Epoch 67: {'loss': 1.238887906074524}
+2025-02-22 12:58:05,467 - titans_training - INFO - Epoch 68: {'loss': 1.179605484008789}
+2025-02-22 12:58:08,392 - titans_training - INFO - Epoch 69: {'loss': 1.1653751134872437}
+2025-02-22 12:58:08,393 - titans_training - INFO - Saving checkpoint at epoch 70
+2025-02-22 12:58:12,327 - titans_training - INFO - Epoch 70: {'loss': 1.1599935293197632}
+2025-02-22 12:58:15,384 - titans_training - INFO - Epoch 71: {'loss': 1.1510343551635742}
+2025-02-22 12:58:18,480 - titans_training - INFO - Epoch 72: {'loss': 1.157684087753296}
+2025-02-22 12:58:21,536 - titans_training - INFO - Epoch 73: {'loss': 1.13040292263031}
+2025-02-22 12:58:24,529 - titans_training - INFO - Epoch 74: {'loss': 1.1343096494674683}
+2025-02-22 12:58:27,469 - titans_training - INFO - Epoch 75: {'loss': 1.1258506774902344}
+2025-02-22 12:58:30,423 - titans_training - INFO - Epoch 76: {'loss': 1.133252501487732}
+2025-02-22 12:58:33,658 - titans_training - INFO - Epoch 77: {'loss': 1.0907135009765625}
+2025-02-22 12:58:36,861 - titans_training - INFO - Epoch 78: {'loss': 1.0949821472167969}
+2025-02-22 12:58:39,875 - titans_training - INFO - Epoch 79: {'loss': 1.0640788078308105}
+2025-02-22 12:58:39,875 - titans_training - INFO - Saving checkpoint at epoch 80
+2025-02-22 12:58:43,479 - titans_training - INFO - Epoch 80: {'loss': 1.0798436403274536}
+2025-02-22 12:58:46,449 - titans_training - INFO - Epoch 81: {'loss': 1.081855297088623}
+2025-02-22 12:58:49,639 - titans_training - INFO - Epoch 82: {'loss': 1.1016209125518799}
+2025-02-22 12:58:52,700 - titans_training - INFO - Epoch 83: {'loss': 1.0699615478515625}
+2025-02-22 12:58:55,834 - titans_training - INFO - Epoch 84: {'loss': 1.0583096742630005}
+2025-02-22 12:58:58,727 - titans_training - INFO - Epoch 85: {'loss': 1.0369222164154053}
+2025-02-22 12:59:01,663 - titans_training - INFO - Epoch 86: {'loss': 1.0500853061676025}
+2025-02-22 12:59:04,612 - titans_training - INFO - Epoch 87: {'loss': 1.0266214609146118}
+2025-02-22 12:59:07,422 - titans_training - INFO - Epoch 88: {'loss': 1.0132396221160889}
+2025-02-22 12:59:10,439 - titans_training - INFO - Epoch 89: {'loss': 1.0110678672790527}
+2025-02-22 12:59:10,439 - titans_training - INFO - Saving checkpoint at epoch 90
+2025-02-22 12:59:13,932 - titans_training - INFO - Epoch 90: {'loss': 1.0265721082687378}
+2025-02-22 12:59:17,143 - titans_training - INFO - Epoch 91: {'loss': 0.9929265379905701}
+2025-02-22 12:59:20,038 - titans_training - INFO - Epoch 92: {'loss': 0.9870736598968506}
+2025-02-22 12:59:22,917 - titans_training - INFO - Epoch 93: {'loss': 0.9788587093353271}
+2025-02-22 12:59:25,845 - titans_training - INFO - Epoch 94: {'loss': 0.9439513087272644}
+2025-02-22 12:59:28,668 - titans_training - INFO - Epoch 95: {'loss': 0.9598304033279419}
+2025-02-22 12:59:31,451 - titans_training - INFO - Epoch 96: {'loss': 0.9078176617622375}
+2025-02-22 12:59:34,436 - titans_training - INFO - Epoch 97: {'loss': 0.9087093472480774}
+2025-02-22 12:59:37,247 - titans_training - INFO - Epoch 98: {'loss': 0.9088560342788696}
+2025-02-22 12:59:40,212 - titans_training - INFO - Epoch 99: {'loss': 0.894927442073822}
+2025-02-22 12:59:40,213 - titans_training - INFO - Saving checkpoint at epoch 100
+2025-02-22 13:14:41,965 - titans_training - INFO - Epoch 0: {'loss': 11.08624267578125}
+2025-02-22 13:14:44,787 - titans_training - INFO - Epoch 1: {'loss': 10.851290702819824}
+2025-02-22 13:14:47,702 - titans_training - INFO - Epoch 2: {'loss': 10.365883827209473}
+2025-02-22 13:14:50,521 - titans_training - INFO - Epoch 3: {'loss': 8.897660255432129}
+2025-02-22 13:14:53,314 - titans_training - INFO - Epoch 4: {'loss': 8.566683769226074}
+2025-02-22 13:14:56,343 - titans_training - INFO - Epoch 5: {'loss': 6.649293899536133}
+2025-02-22 13:14:59,220 - titans_training - INFO - Epoch 6: {'loss': 15.617321014404297}
+2025-02-22 13:15:02,071 - titans_training - INFO - Epoch 7: {'loss': 15.924530029296875}
+2025-02-22 13:15:05,097 - titans_training - INFO - Epoch 8: {'loss': 14.791357040405273}
+2025-02-22 13:15:07,971 - titans_training - INFO - Epoch 9: {'loss': 13.208586692810059}
+2025-02-22 13:15:07,972 - titans_training - INFO - Saving checkpoint at epoch 10
+2025-02-22 13:24:31,738 - titans_training - INFO - Epoch 0: {'loss': 10.915194511413574}
+2025-02-22 13:24:34,433 - titans_training - INFO - Epoch 1: {'loss': 10.969635963439941}
+2025-02-22 13:24:37,360 - titans_training - INFO - Epoch 2: {'loss': 10.784728050231934}
+2025-02-22 13:24:40,416 - titans_training - INFO - Epoch 3: {'loss': 9.533747673034668}
+2025-02-22 13:24:43,266 - titans_training - INFO - Epoch 4: {'loss': 8.336129188537598}
+2025-02-22 13:24:46,067 - titans_training - INFO - Epoch 5: {'loss': 6.818815231323242}
+2025-02-22 13:24:48,846 - titans_training - INFO - Epoch 6: {'loss': 5.671180248260498}
+2025-02-22 13:24:51,751 - titans_training - INFO - Epoch 7: {'loss': 14.60142993927002}
+2025-02-22 13:24:54,571 - titans_training - INFO - Epoch 8: {'loss': 14.624530792236328}
+2025-02-22 13:24:57,380 - titans_training - INFO - Epoch 9: {'loss': 11.527636528015137}
+2025-02-22 13:24:57,381 - titans_training - INFO - Saving checkpoint at epoch 10
+2025-02-22 13:26:38,672 - titans_training - INFO - Epoch 0: {'loss': 11.72197151184082}
+2025-02-22 13:26:41,718 - titans_training - INFO - Epoch 1: {'loss': 11.637866973876953}
+2025-02-22 13:26:44,936 - titans_training - INFO - Epoch 2: {'loss': 12.251115798950195}
+2025-02-22 13:26:47,944 - titans_training - INFO - Epoch 3: {'loss': 10.221221923828125}
+2025-02-22 13:26:51,147 - titans_training - INFO - Epoch 4: {'loss': 8.774515151977539}
+2025-02-22 13:26:54,155 - titans_training - INFO - Epoch 5: {'loss': 7.3603739738464355}
+2025-02-22 13:26:57,345 - titans_training - INFO - Epoch 6: {'loss': 6.780580997467041}
+2025-02-22 13:27:00,367 - titans_training - INFO - Epoch 7: {'loss': 5.9493818283081055}
+2025-02-22 13:27:03,534 - titans_training - INFO - Epoch 8: {'loss': 5.357381820678711}
+2025-02-22 13:27:06,616 - titans_training - INFO - Epoch 9: {'loss': 4.486501693725586}
+2025-02-22 13:27:06,616 - titans_training - INFO - Saving checkpoint at epoch 10
+2025-02-22 13:29:38,240 - titans_training - INFO - Epoch 0: {'loss': 11.316146850585938}
+2025-02-22 13:29:40,927 - titans_training - INFO - Epoch 1: {'loss': 9.15793228149414}
+2025-02-22 13:29:43,803 - titans_training - INFO - Epoch 2: {'loss': 8.468172073364258}
+2025-02-22 13:29:46,481 - titans_training - INFO - Epoch 3: {'loss': 6.484757900238037}
+2025-02-22 13:29:49,254 - titans_training - INFO - Epoch 4: {'loss': 6.896076679229736}
+2025-02-22 13:29:52,196 - titans_training - INFO - Epoch 5: {'loss': 5.780269622802734}
+2025-02-22 13:29:54,962 - titans_training - INFO - Epoch 6: {'loss': 4.9159770011901855}
+2025-02-22 13:29:57,801 - titans_training - INFO - Epoch 7: {'loss': 15.557199478149414}
+2025-02-22 13:30:00,791 - titans_training - INFO - Epoch 8: {'loss': 3.7861809730529785}
+2025-02-22 13:30:03,619 - titans_training - INFO - Epoch 9: {'loss': 3.1919400691986084}
+2025-02-22 13:30:03,619 - titans_training - INFO - Saving checkpoint at epoch 10

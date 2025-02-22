@@ -1,8 +1,8 @@
 # titans/scripts/utils/profile_model.py
 import torch
-from ...core.models import TitansMAC
-from ...utils.metrics import MetricsTracker
-from ...utils.logging import setup_logger
+from core.models import TitansMAC
+from utils.metrics import MetricsTracker
+from utils.logging import setup_logger
 import time
 from typing import Dict, Any
 from torch.profiler import profile, record_function, ProfilerActivity

@@ -40,34 +40,23 @@ class TitansPredictor:
         top_p: float = 0.9,
         memory_state: Optional[torch.Tensor] = None,
     ) -> Tuple[str, torch.Tensor]:
-        """Generate text continuation.
-        
-        Args:
-            input_text: Input text to continue from
-            max_new_tokens: Maximum number of tokens to generate
-            temperature: Sampling temperature
-            top_k: Top-k sampling parameter
-            top_p: Nucleus sampling parameter
-            memory_state: Optional previous memory state
-            
-        Returns:
-            generated_text: Generated text continuation
-            final_memory: Final memory state
-        """
         # Process input text
         input_ids = self.tokenizer.process_text(input_text)[0].to(self.device)
+        if input_ids.dim() == 1:
+            input_ids = input_ids.unsqueeze(0)  # Add batch dimension
         
         # Initialize generation
         generated_ids = [input_ids]
         current_memory = memory_state
         
         for _ in range(max_new_tokens):
-            # Get input context (limited by max_length)
-            context = torch.cat(generated_ids)[-self.max_length:]
+            # Ensure consistent dimensions when concatenating
+            context = torch.cat([ids.view(1, -1) for ids in generated_ids], dim=1)
+            context = context[:, -self.max_length:]  # Limit context length
             
             # Forward pass
             outputs, current_memory = self.model(
-                context.unsqueeze(0),
+                context,  # Already has batch dimension
                 memory_state=current_memory
             )
             
@@ -94,11 +83,12 @@ class TitansPredictor:
             next_token = torch.multinomial(probs, num_samples=1)
             
             # Append to generated sequence
-            generated_ids.append(next_token.unsqueeze(0))
+            generated_ids.append(next_token.view(1, -1))  # Ensure consistent shape
             
         # Decode generated tokens
+        generated_tokens = torch.cat(generated_ids, dim=1)
         generated_text = self.tokenizer.tokenizer.decode(
-            torch.cat(generated_ids)[len(input_ids):].tolist()
+            generated_tokens[0, input_ids.size(1):].tolist()
         )
         
         return generated_text, current_memory

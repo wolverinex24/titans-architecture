@@ -4,9 +4,9 @@ import gradio as gr
 from typing import Dict, List, Optional,Tuple
 
 from inference import predictor
-from ...inference import TitansPredictor
-from ...utils.config import ConfigLoader
-from ...utils.logging import setup_logger
+from inference import TitansPredictor
+from utils.config_loader import ConfigLoader
+from utils.logging import setup_logger
 
 class TitansDemo:
     def __init__(

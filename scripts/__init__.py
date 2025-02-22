@@ -8,12 +8,11 @@ This module exports the following:
 
 from .inference import main
 from .evaluate import evaluate, main
-from .train import main, parse_args
+from .train import main
 
 __all__ = [
     'evaluate',
     'main',
     'main',
-    'main',
-    'parse_args'
+    'main'
 ]

@@ -1,9 +1,9 @@
 # titans/scripts/utils/analyze_memory.py
 import torch
-from ...core.models import TitansMAC
-from ...core.memory import NeuralMemoryModule
-from ...utils.metrics import MemoryMetrics
-from ...utils.logging import setup_logger
+from core.models import TitansMAC
+from core.memory import NeuralMemoryModule
+from utils.metrics import MemoryMetrics
+from utils.logging import setup_logger
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
