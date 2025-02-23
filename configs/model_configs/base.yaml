@@ -1,10 +1,10 @@
 # titans/configs/model_configs/base.yaml
 model:
-  input_dim: 512
-  memory_dim: 512
+  input_dim: 720
+  memory_dim: 720
   num_memory_tokens: 32
-  num_heads: 8
-  num_layers: 2
+  num_heads: 12
+  num_layers: 4
   vocab_size: 50000
   
   sequence:
