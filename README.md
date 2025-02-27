@@ -6,7 +6,7 @@ A PyTorch implementation of Titans, featuring Neural Memory Module (NMM) for eff
 - Memory as Context (MAC) architecture implementation
 - Neural Memory Module with test-time learning
 - Efficient parallel training with tensorized operations 
-- Support for long context windows (>2M tokens)
+- Support for long context windows (>2M tokens)[researching]
 - Modular design for easy experimentation
 
 ## Installation
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 python -m scripts.utils.prepare_data --input_files data/yourTextFileName.txt --output_dir processed_data
     
 # Training
-python -m scripts.train --config small --data_path w:\DLearning\titan\Titan_Architecture\titans\processed_data\data_processed.pt --output_dir ./outputs --save_every 10
+python -m scripts.train --config base --data_path Yourdir\processed_data\data_processed.pt --output_dir ./outputs --save_every 10
 
 # Evaluation
 python -m scripts.evaluate --checkpoint ./outputs/checkpoints/latest.pt --data_path /path/to/eval_data
