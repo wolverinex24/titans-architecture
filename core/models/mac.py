@@ -110,8 +110,17 @@ class TitansMAC(nn.Module):
         self,
         inputs: torch.Tensor,  # [B, T] Long tensor of token IDs
         memory_state: Optional[torch.Tensor] = None,
-        attention_mask: Optional[torch.Tensor] = None
+        attention_mask: Optional[torch.Tensor] = None,
+        is_inference: bool = False
     ) -> Tuple[torch.Tensor, torch.Tensor]:
+        """Forward pass through Titans MAC model.
+        
+        Args:
+            inputs: Input token IDs [B, T]
+            memory_state: Optional previous memory state 
+            attention_mask: Optional attention mask
+            is_inference: Whether in inference mode
+        """
         batch_size, seq_length = inputs.size()
         
         # Convert token IDs to embeddings
@@ -120,18 +129,35 @@ class TitansMAC(nn.Module):
         # Get persistent memory tokens
         persistent_tokens = self.persistent_memory(batch_size)  # [B, Np, D]
         
-        # Update and retrieve from neural memory
-        memory_state, momentum = self.neural_memory(inputs_emb, memory_state)
-        memory_out = self.neural_memory.retrieve(inputs_emb, memory_state)  # [B, T, D]
+        # Initialize or handle memory state
+        if memory_state is None:
+            memory_state = torch.zeros(
+                batch_size, 
+                self.neural_memory.memory_dim,
+                device=inputs.device
+            )
+        elif isinstance(memory_state, tuple):
+            memory_state = memory_state[0]
         
-        # Combine sequence
+        # Update neural memory and retrieve memory-based representations
+        with torch.set_grad_enabled(True):  # Enable gradients for test-time learning
+            memory_output, new_memory_state = self.neural_memory(
+                inputs_emb,
+                memory_state=memory_state,
+                is_inference=is_inference
+            )
+            
+            # Retrieve memory-conditioned representations
+            memory_out = self.neural_memory.retrieve(inputs_emb, new_memory_state)
+        
+        # Combine all information streams
         combined = torch.cat([
-            persistent_tokens,  # [B, Np, D]
-            memory_out,        # [B, T, D]
-            inputs_emb         # [B, T, D]
+            persistent_tokens,  # Task knowledge [B, Np, D]
+            memory_out,        # Memory context [B, T, D]
+            inputs_emb         # Current input [B, T, D]
         ], dim=1)
         
-        # Create attention mask
+        # Create attention mask if needed
         mask = None
         if attention_mask is not None:
             mask = self.create_attention_mask(
@@ -141,7 +167,7 @@ class TitansMAC(nn.Module):
                 device=inputs.device
             )
         
-        # Apply attention
+        # Process through attention
         output = self.attention(
             query=combined,
             key=combined,
@@ -149,15 +175,17 @@ class TitansMAC(nn.Module):
             mask=mask
         )
         
-        # Apply normalization and dropout
+        # Apply normalization and regularization
         output = self.norm(output)
         output = self.dropout(output)
         
-        # Get relevant outputs and project to vocabulary
-        output = output[:, self.num_memory_tokens:]  # Remove persistent tokens
+        # Extract relevant output (removing persistent tokens)
+        output = output[:, self.num_memory_tokens:]  # [B, 2T, D]
+        
+        # Project to vocabulary
         logits = self.output_proj(output)  # [B, 2T, vocab_size]
         
-        # Only keep the relevant part of the output (matching input length)
-        logits = logits[:, :seq_length, :]
+        # Keep only the relevant predictions
+        logits = logits[:, :seq_length, :]  # [B, T, vocab_size]
         
-        return logits, memory_state
+        return logits, new_memory_state

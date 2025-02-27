@@ -1,7 +1,463 @@
-The sun dipped below the horizon, painting the sky in shades of orange and pink.
-Artificial intelligence is transforming industries across the globe.
-A gentle breeze rustled the leaves of the ancient oak tree.
-Quantum computing promises to revolutionize problem-solving in science and technology.
-She glanced at the clock, realizing she was running late for the meeting.
-If it rains tomorrow, we will postpone the picnic.
-The cat curled up on the windowsill, purring softly.
+text
+AGILE DEVELOPMENT
+
+Teleconferencing Is the Pair Programming of the Future
+
+Collaboration for developers has never been easier.
+
+Coding via teleconference is similar to the situation above, but nobody has to shower!
+
+My challenge to you…
+
+If you’re a leading member of a development team that typically works separately, I triple-dog-dare you to:
+
+Pick a task that you think will take two weeks for your development team to complete (working separately). Perhaps an upcoming backlog item. Invite your entire team to a call on MS Teams, Zoom, or whichever teleconferencing tool you use. Have them drop as many meetings as possible so that they’re free for all or most of the day. Start sharing your screen, talk about what you’re trying to do, and start coding while the rest of the team is watching. Start asking a few questions. Don’t force any structure on the process. Don’t stop coding. Work the entire day this way. (note: you may want to have the fastest typer do the screen-sharing/coding) Repeat the process for at least another 2–3 days that same week. ??? Profit.
+
+Why?
+
+Well, screen-sharing over a teleconference is essentially pair programming without having to crowd around a single computer. There’s a number of additional advantages as well:
+
+Your team can work from anywhere in the world. This is particularly important now, of all times, due to the COVID-19 pandemic.
+
+Instead of being limited to a “pair”, you can have N developers (or even non-developers) contributing on the call.
+
+Anyone on the call who isn’t coding/screen-sharing can help by googling any issues that arise or pulling up documentation. They could also use their own machine to work on a related task while staying on the call.
+
+A long session with voice and video promotes team engagement and eliminates delays in communication.
+
+Developers can mute, take a break, etc. without disrupting the rest of the team.
+
+Developers can swap between which screen is being shared.
+
+Modern teleconferencing tools like MS Teams let developers take control of each others’ computers.
+
+Developers have connected the world together in real-time. It’s time to use those same tools to accomplish great things together from anywhere in the world.
+
+My personal experience
+
+Whether I realized it or not, I’ve been doing this for about 2 years now. I have a small team, and we screen-share via teleconference almost every single work day at some point. Often times we screen-share for most of the day. It’s not a special event to work this way; it’s just how we collaborate. I can’t believe what we’ve been able to figure out as a small, cohesive group vs. what each of us would’ve been able to figure out individually in the same timeframe. I’ve used this same practice a few times with people outside of the team to great success as well.
+
+The combined knowledge of a development team is immense, and (in my opinion) it’s a shame if that knowledge is fragmented rather than working towards the same goal.
+
+Something that one developer forgets might be something that another developer remembers. There’s minimal lag between a question being asked and the question being answered. After the call finishes, every developer knows exactly what happened and what work is remaining on the task or project.
+
+Try it out and see for yourself.
+Listen Closely, And You Might Hear Democrats Changing Their Tune (A Little) On A Wall…
+
+Not “the wall”. But a wall of some kind…
+
+House Democratic Caucus Chair Hakeem Jeffries (as reported by the Washington Post):
+
+“I think we’ve consistently said that we do not support a medieval border wall from sea to shining sea….However, we are willing to support fencing where it makes sense, but it should be done in an evidence-based fashion.”
+
+Chair of the bipartisan conference committee Rep. Nita Lowey (D) NY (also in the Post):
+
+“Smart border security is not overly reliant on physical barriers, and they’re not cost-effective compared to better technology and more personnel.”
+
+Note: “not overly reliant”.
+
+Even House Speaker Nancy Pelosi a couple of days ago (as reported by the New York Times):
+
+“[Democrats want a border plan rooted in] evidence-based knowledge about how we best secure our border”.
+
+At the same time, even if Democrats were inclined to be a little more flexible, Trump could totally slam the brakes on that if he keeps Tweeting things like this:
+
+In some ways, it doesn’t matter what the bipartisan conference committee in Congress that meets for the first time today comes up with in terms of a border security measure in the next couple of weeks, as long as they come up with something. That would at least put the responsibility on Trump for any further action he chooses to take, and erases the possibility of him blaming it on Congress due to their inaction.
+
+Does that mean the legislation immediately being hammered out would have to include wall money to get the President’s signature? Maybe, maybe not. While there was no wall money in the budget bill passed by the Republican-controlled Senate at the end of last year that Trump refused to sign, Congress has over the past year appropriated several billion dollars to border security, including repairing and reinforcing existing barriers, but specifying it could not be spent on building a new wall. Now the one thing everyone seems to agree on is allocating many more billions for a wide range of border-related things.
+
+We think, despite the fact that Democrats clearly won the “shutdown battle”, there’s a good chance they could at least endorse the modernization and even possibly the extension of existing barriers. That’s because they’re most focused on making sure any change will be taken in the context of wall as valid security measure, not wall as personal monument in honor of our President. Which is totally valid, but how do you prevent the President from turning it into that anyway?
+
+If Democrats need to put some wall money into a border security agreement to pass it, there may be some ways they can sell it without looking like they are giving up ground: perhaps by setting up a mechanism independent from the President that would determine how border money is best spent, which wouldn’t automatically rule in or out a wall.
+
+There are also ways, perhaps, of letting Trump call something a wall, when it’s actually not a wall. Which is why you hear Democrats these days, like House Majority Whip James Clyburn, throwing around terms like “smart wall”. All Trump now has to do to fulfill his promise to his people is latch on to one of those “wall-y” buzzwords. He’s already come a long way: from his campaign rally pledge to build a “big beautiful wall from sea to shining sea”, to saying he never said that, and it’s almost foolish to think that. (Except of course, he did say it.)
+
+Even if the bipartisan group doesn’t deliver anything Trump likes, the fact of any bipartisan deal will put him in a very hard position, because he’s already looking at a raft of choices that are sure to add to his unpopularity including re-shutting down the government, or declaring a national emergency to build his wall. (How is it an emergency if it can wait 3 weeks or 2 months depending on how you want to look at it?)
+
+There are bigger issues too, that are barely being touched. As the Conservative Cato Institute points out (and we happen to agree with, though possibly for different reasons): as “expensive and ineffective” as Trump’s wall would be, having the solution be billions of dollars in drones, personnel and a bunch of other high tech gadgets poses the threat of further militarizing what they say is already “a needlessly over-militarized region”. Always have to remember however, that Cato was founded by the Koch Brothers, who oppose many of the immigration measures Trump supports, because they need a steady supply of reliable workers they don’t have to pay much to in order to grow their businesses.
+
+Since giving in — at least temporarily — on his wall, Trump’s been quick to ramp up his rhetoric and misinformation campaign about where and how criminals and drugs flow into the country. This brilliant piece in the New York Times traces the origins of the contraband Trump used to make his case for the wall when he visited the border, and found most of it was seized at official ports of entry and/or several years ago. Since his temporary capitulation Trump’s been alternately ridiculed and emboldened by his favorite reporters and commentators on Fox. So as usual those folks are being very “helpful” in setting Trump’s agenda.
+
+We do wonder if Trump’s view of some of his most anti-immigrant advisors and buddies, like Stephen Miller, or Freedom caucus leader Rep. Mark Meadows, have been changed by how disastrous the shutdown was for Trump. Because we can imagine Miller et. al., were in there every day telling Trump if he held firm Democrats would weaken, start defecting and he’d ultimately prevail. That’s probably what Trump’s gut told him too. Still, the President will never blame himself for anything. so we’d imagine at least some of those advisers are in at least a little hot water. Or maybe not. But we hope so.
+
+In addition to Pelosi, Senate Majority Leader Mitch McConnell remains a key player in all of this, especially if he sticks to his vow that he won’t bring anything to the floor of the Senate that Trump won’t sign.
+
+Although he already kind of broke it by allowing a vote on Democrats’ bill last week, along with Trump’s bill. That proved to be an interesting and constructive gambit, in that even though both bills were almost guaranteed to fail, the outcome would be a win-win for the Majority Leader no matter what. Had a few Democrats defected to the Trump bill (only one did, plus two Republicans voted against Trump) that could’ve put pressure on them to come up with a compromise that included wall funding. If Republicans came over and supported the Democrats (which is what happened: 6 of them voted for the Democrats’ plan), that put pressure on Trump to give in at least temporarily and reopen the government. So while McConnell was as much to blame for the length of the shutdown as anyone (as we’ve discussed, he could’ve acted decisively much sooner), he also played a pivotal role in ending it, and his power as gatekeeper of what gets voted on in the Senate will continue to be extraordinarily important to any eventual resolution (or not).
+
+And McConnell, perhaps a little surprisingly, appeared to endorse legislation to prevent future government shutdowns from even being allowed to happen.
+Earlier this year (2020), KIONDO moved to begin work in Walsall within the height of the UK’s COVID-19 pandemic. In spite of fears and apprehensions, we felt it necessary to use the situation as an opportunity to ‘pause’, and re-establish who we are as an organisation, what we do and why.
+
+Within this time, we have made small strides in embedding ourselves more deeply into the Walsall community. Some of this work includes:
+
+Securing 2 out of 3 units which made up the Old Hog Head Pub
+
+Hosting UKBFTOG & the UK’s 1st Black Female Photographers Exhibit in Walsall.
+
+Joining the Walsall Cultural Compact
+
+Seeding a working partnership with the local authority, Walsall For All, Lord Wei & WHG
+
+Pitching a £1.5mill expression of interest for the £25mill town fund coming to the region
+
+Forming a small community group to share project updates & progress.
+
+Although we planned to do much more within this time, our pace has been slowed by the national lockdown measures, so we have adjusted our working speed, as the world embraces living with COVID.
+
+In this time we have continued stay present; learning about Walsall’s local organisations and their approaches to building and working with the local community. Despite their willingness toward openness, opportunities for all and sensitivity to different community groups and backgrounds, without avail, some organisations remain unaware of the unhappiness stemming from those same communities they serve.
+
+For example, African & Caribbean communities in Walsall feel locked out of local opportunities. This is felt because some of Walsall’s larger organisations have tended to create experiences and opportunities for this community with little or no representation, nor consultation from those people from this background. Organisational finances in some areas are directed towards internal budgets for staff, which often do not reflect the external communities suffering from well-established inequalities. The local community register this behaviour as a haemorrhaging of resources that could be better directed into the hands of the people themselves.
+
+The wider community often feel disconnected from local initiatives, and local ‘champions’ representing points of contact for the entirety of their perceived social group. This makes it easier to pigeonhole resources and can, at times, imply an entire community has received support when in fact a bottleneck has been created, with community champions, often unwittingly, becoming gatekeepers to groups they may not fully represent.
+
+We must find a way to ensure that local underrepresented voices are able to access positions of influence in order to make the changes that will benefit all communities in Walsall.
+
+Why is this important? Jennifer Blake said it well in her BHM talk with Walsall for All (Oct 26th 2020) — diversity & inclusion is more than a social good, it possesses benefits far outreaching moralistic measures — creating vast opportunities for the global economy, as well as providing the platform for greater community cohesion, health & wellbeing. These are all necessary components of the resilient communities of the future.
+
+We cannot afford to be left behind //.
+
+In spite of misconceptions, Walsall borough has a larger population and land area than neighbouring Wolverhampton and is home to approximately 285,500 residents who cannot afford to be left behind (Walsall Insight, Walsall Borough Council 2020)
+
+Walsall already presents incredibly low levels of social mobility, with it being ranked 276 out of 326 (326# being the worst socially mobile places to live; Social Mobility Index 2017) and existing within the top 10 most deprived places to live within the entire UK. Another misconception is the demographic makeup of Walsall. There is a 70/30 split with 70% of the population of Walsall being White, and other ethnicities approaching 30%. Despite white residents possessing an institutional and economical advantage, they, as with every other group resident to Walsall, still suffer from the same disadvantages in quality of life, based on the level of local deprivation.
+
+Walsall must embrace those from other ethnicities, backgrounds and cultural beliefs and unlock almost 90,000 potential problem solvers and solutions available from within the town, as well those who fall outside the statistics — like asylum seekers and the unregistered homeless. A staggering £127bn is lost every year in the UK based on discrimination to gender, ethnicity and sexual orientation, when we could be benefiting from a £24bn boost by simply investing BME, according to the McGregor-Smith review, 2017.
+
+Where we come in ///.
+
+As we proceed, bringing to life ‘The People’s Studio’ — our project to create a sustainable, and most importantly, community-led creative village in the heart of Walsall town, our responsibility to address inequalities grows ever more imperative.
+
+We feel an insatiable appetite to undertake work that directly serves to address local concerns and challenges — creating spaces to amplify residents, tenants and asylum voices to be the lead on recreating our town. Our venue, Blank Canvas as named by the people, and central to our creative village proposal, will act as a tool to aid Walsall’s underserved to reshape the town, by providing the space, tools and equipment to host experiments and create new experiences.
+
+Before this year ends, we will be launching a programme of activities centred around local authorship, story-telling and citizen led knowledge production — creating space for unheard voices from the Walsall community to gather, share lived experiences, grow knowledge and build collective power. We are not doing this alone.
+
+Walsall for All have begun to lead the way in supporting our efforts to address diversity and inclusion in Walsall by investing in our fund to help activate grassroots social change and create experiences led by Walsall’s migrant and BAME communities as part of their BHM contributions. We need to see more. We want to build a consortium, calling together Walsall’s leading organisations to collectively contribute to a pot that will have Walsall’s underrepresented, given the resources they need to address the challenges we’ve identified.
+
+These efforts MUST extend beyond Black History Month, and become a staple practice in Walsall continuing into the new decade. We are talking to WHG and will be approaching Homeserve and Walsall’s other main employers to see where they stand in this agenda.
+Schemas — this is how data looks
+
+Schemas include metadata referring to your data models and provide information about the resource representations that your API accepts or returns. For example, JSON Schema is a specification declaring the proper structure of JavaScript Object Notation (JSON) data used frequently with web APIs, and is used to validate the correct format for the body of a request or response.
+
+API description formats — this is a way to describe APIs
+
+These formats are sometimes called API specification formats, and are usually based on a specification format (such as OpenAPI Specification) that combines a schema language (such as JSON Schema) and other information to describe endpoints, headers, and all the stuff that’s not in the body (that’s covered in a schema).
+
+API description document — this is how a particular API works
+
+These documents are sometimes called API specifications, and is a file that contains all the stuff from your description format fleshed out with information related to your actual API. This file describes how the API works. It can be used as a contract to programmatically build workflows useful for API development, such as tests or documentation.
+
+API documentation — this is how to use a particular API
+
+Documentation talks about how to use an API, and will typically include a technical reference as well as functional guides for how to interact with the API across various use cases. An API consumer who reads the API documentation should understand how to use the API.
+
+There are meaningful differences between all of these concepts. But once again, experts don’t always agree on these meanings, and they’re frequently referred to interchangeably or ambiguously. For example, when someone says “API specification”, they could be referring to either the format for describing APIs, the file intended to drive API development, or the file generated to document an API.
+
+The important thing is to understand these basic concepts, and then determine what is helpful for your organization’s desired workflow.
+
+If your head hurts from reading this, so does mine. Let’s forge ahead and walk through a couple examples.
+
+Example #1: Building blocks
+
+From the building blocks of modern software to the building blocks of life — let’s talk about APIs and DNA.
+
+DNA is the blueprint for every living organism
+
+In biochemistry, DNA is the blueprint for every living organism. A schema establishes the rules for how biological molecules pair together to form chemical strands of a double helix 🧬
+
+The human genome is a description format offering a complete genetic blueprint for building human beings. This mapping provides detailed information about the structure, organization, and function of the complete set of human genes.
+
+My personal DNA sequence can be captured in a description file. My DNA follows the general rules of DNA, particularly that of a human’s DNA, and not an alligator or mushroom 🐊🍄
+
+My documentation helps others understand how to interact with me. I must be fed 4–5 times a day, and I’ll get grumpy if you talk to me while I’m busy working with my headphones on.
+
+Let’s walk through one more example — this time with our friendly, neighborhood Postman.
+
+Example #2: Postman collections to describe an API
+I have been playing with Visual Studio Code(VSCode) to develop C code on Linux. Lately, I have became a fan of Visual Studio Code which I believe is a great free product from Microsoft for developers in a long time.
+
+I will show how to setup a Visual Studio Code on Linux CentOS and setup debugging C programming so that developers can step through the breakpoints in code. Please keep in mind that support for C/C++ on Visual Studio Code(VSCode) is still in preview so some things might not work as expected. The VSCode team is working hard to weed out some of the issues and release new features.
+
+Disclaimer: I am not part of the Visual Studio Code team at the time of this writing.
+
+Installing VSCode on CentOS
+
+Microsoft has fallen in love with Linux since May 2015. That strategy helps them attract and become more developer friendly organization. That’s why the VSCode is available across Linux, macOS and Windows environments.
+
+The details and most up-to-date steps are described here https://code.visualstudio.com/docs/setup/linux. I will show you a quick start guide for CentOS.
+
+Open terminal instance and run following two commands:
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc sudo sh -c 'echo -e "[code]
+
+name=Visual Studio Code
+
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+
+enabled=1
+
+gpgcheck=1
+
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+Update the package and install the VSCode:
+
+yum check-update
+
+sudo yum install code
+
+Installing VSCode was easy…
+
+Installing C/C++ Extensions
+
+VSCode needs special extension to provide rich code editing options for C. The extension is developed by Microsoft. Click on Extensions icon on the sidebar and search for “c”. The first search result, “c/c++” by Microsoft is the popular extension I used. Install it.
+Ever had to deal with a large dataset within your web application? Let’s say a call to your API returns thousands of items. You now want to render a scrollable list without pagination displaying each of those items. Rendering that many items would pollute the DOM and consume too much memory, thus degrading your app’s performance. Plus, remember, every time the DOM is updated, it needs to recalculate its layout based on any changes.
+
+How to fix this? Enter virtual scrolling.
+
+Virtual Scrolling
+
+The above scenario can be tackled using virtual scrolling. Virtual scrolling reduces the number of items being rendered into the DOM and the time it takes to repaint the document with new items. It does so by only showing users a certain portion of the data at a time. The rest of the data is virtualized using top and bottom padding elements that contain some height to allow for scrolling. Each time the user scrolls out of the visible content, the layout is rebuilt, new items are fetched and the padding and heights are recalculated.
+
+Let’s see this in action using react-window.
+
+React-window
+
+React-window is a handy package for use in React web applications. It reduces the amount of work and time that’s normally required when rendering an initial view. How does it do this? By efficiently rendering only the data that's needed. It renders only part of the data, enough to fill the viewport at any given moment.
+
+If we inspect the example component from their docs, we can see that despite scrolling down a long list of rows, the number of items in its parent div never changes. What does change is how far each one is positioned from the top. Thus, we only see the markup for what’s in the viewport.
+
+react-window rows
+
+The package isn’t limited to just a list component, by specifying the layout prop you can also achieve column layouts for your data.
+
+react-window columns
+
+The docs show a basic example of how to achieve the above by simply stating the number of rows/cols and then appending the word Column or Row to each index to form the inner HTML. How to pass your own data to the list component, however — for example, data fetched from an API — wasn’t immediately clear to me. So I’ll be covering how to do this in this article.
+Is A Barbie Body Possible?
+
+A psychological study, “Does Barbie make girls want to be thin” looked at girls 5 to 8 years of age where they were shown images of either Barbie dolls, Emme dolls (U.S. size 16), or no dolls. After the girls saw the images’ they then completed body image assessments. The study concluded that girls exposed to Barbie dolls reported lower body image and a higher desire for a thinner body frame than the girls in the other exposure groups. The study also found that early exposure to dolls with unrealistic thin body shapes could damage girls’ body image, and increase their risk for an eating disorder or weight cycling.
+
+When I worked at Rehabs.com, the team created an infographic called, “Is A Barbie Body Possible?” They had a realistic photo rendering done based on a Barbie dolls measurements. They discovered that it is impossible to have her physical proportions. For example; with Barbie’s waist being smaller than her head, she only has room for half a liver and only a few inches of intestine. The Yale Center for Eating and Weight Disorders calculated a healthy woman’s body and how much it would have to change in order for her to have the measurements of a Barbie doll. They found that, “women would have to grow two feet taller, extend their neck length by 3.2 inches, gain 5 inches in chest size, and lose 6 inches in waist circumference.” This is an impossible dimension to achieve, and although media shows that this is a body to emulate, I believe that the ideal female body image is changing.
+
+Thanks to movements like #bodypositive, Dove #realbeauty, #nofilter, and #healthyisthenewskinny we are now seeing bodies of all different sizes in ad campaigns. The emphasis is less about striving for the perfect body and more about loving our body just the way it is. We are also seeing Mattel change as well. Three years ago they offered three new body types to Barbie, and one was “curvy.” Let’s hope that she loves her new body, and encourages women young and old to do the same.
+Ames Housing Project
+
+By Unsplash
+
+Overview
+
+Predicting Ames House price by conducting some exploratory data analysis followed by processing the data based on the findings. This was an individual set up project to participate in Kaggle competition to build the best regression model to predict housing prices based on the test CSV. file provided to us.
+
+For the data processing to start I was supplied two data sets one is training data sets (csv. file) containing all the information of Ames House Project, that data used to make a model which aimed at predicting the housing prices of the other csv. file labeled test.csv. The test.csv file has all the columns of the train.csv except it is missing the prices of each houses. Data sets contain total 2051 observations with 82 variables.
+
+I imported all the required libraries panda, seaborn, matplotlib, pyplot, sklearn. I cleaned the datasets for further analysis. Next I split the train datasets into two separate datasets so I could build a model on one part of the data and test its performance on the other sets. This will be allowed me to predict how my model would perform on unseen data. My model was scored against the true sale price using Root Mean Squared Error and placed Twenty Fifth out of all General assembly fellows nationwide.
+
+Reading data
+
+I read the train data set, first converted this into a Data Frame to analyze.
+
+Exploratory Data Analysis
+
+· First started to do analysis on all features by correlation matrix to see the correlation amongst the features as well as the target price and then I created a heatmap to visualize it.
+
+· Created distribution graph to see the distribution of all the features.
+
+· Then started looking for features which could be used in my predictive model. Features that are strongly (positively and negatively) correlated with price will probably be good indicators/predictors of price. Features that have strong correlations amongst themselves have collinearity, from these features I will want to pick the strongest feature and exclude the others since a principle assumption of linear regression models is the independence of features.
+
+You can see my code below:
+
+def get_feature_groups():
+
+""" Returns a list of numerical and categorical features,
+
+excluding SalePrice and Id. """
+
+
+
+num_features = df_train.select_dtypes(include=['int64','float64']).columns
+
+num_features = num_features.drop(['Id','SalePrice']) # drop ID and SalePrice cat_features = df_train.select_dtypes(include=['object']).columns
+
+return list(num_features), list(cat_features) num_features, cat_features = get_feature_groups() corr = df_train[['SalePrice'] + num_features].corr()
+
+fig = plt.figure(figsize=(16,15))
+
+ax = fig.add_subplot(111)
+
+cmap = sns.diverging_palette(220, 10, as_cmap=True)
+
+sns.heatmap(corr,
+
+xticklabels=corr.columns.values,
+
+yticklabels=corr.index.values,
+
+cmap=cmap)
+
+ax.xaxis.tick_top()
+
+plt.setp(ax.get_xticklabels(), rotation=90)
+
+plt.show()
+
+Correlation between all features
+
+corr = corr.sort_values('SalePrice', ascending=False)
+
+plt.figure(figsize=(8,10))
+
+sns.barplot( corr.SalePrice[1:], corr.index[1:], orient='h')
+
+plt.show()
+
+Correlation view of features by barplot
+
+Cleaning
+
+Null values are values which are missing. After checking the amount of null values which are in the features, I decided to drop these.
+
+Feature Engineering
+
+I tried some feature engineering on some interesting features and tried to find out there any impact on sale price. I found on neighborhood, year sold, Ground living area, year sold of the houses shows some interesting linearity on sale price. I created some plots on these.
+
+You can find my all codes below
+
+df_train.groupby('Neighborhood').Id.count().\
+
+sort_values().\
+
+plot(kind='barh', figsize=(10,10))
+
+plt.title('What neighborhoods are houses in?')
+
+plt.show()
+
+From the plots it shows that It would also be interesting to augment the dataset with additional information as it relates to neighborhoods.
+
+data = pd.concat(
+
+[
+
+df_train.groupby('Neighborhood').mean()['SalePrice'],
+
+df_train.groupby('Neighborhood').count()['Id']
+
+],
+
+
+
+axis=1)
+
+f, ax = plt.subplots()
+
+sns.stripplot(data.sort_values(by='SalePrice').SalePrice, data.sort_values(by='SalePrice').index, orient='h', color='red');
+
+(For an example)
+
+#Neighborhood 1: MeadowV:BrDale
+
+#Neighborhood 2: BrkSide:Mitchel
+
+#Neighborhood 3: SawyerW:Veenker
+
+#Neighborhood 4: Timber:NoRidge
+
+Interestingly, I see four clusters of neighborhoods above. we can categorize them and can approach which neighborhoods showing more expensive. It Looks like a good chunk of houses are in North Ames, Collect Creek, and Old Town, with few houses in Bluestem, Northpark Villa and Veenker.
+
+Based on the below (histogram) plot, I would identify the following construction periods.(Codes are below)
+
+plt.hist(df_train['Year Built'])
+
+Oldest house built in 1872. Newest house built in 2010. Not much action in the 80s apparently. Looks like majority of houses were built in the 50s and after, 1985–2010: Extended growth leading up to the Great Recession.
+
+Also found some interesting area covers means how big houses are made in a lot area, but there are also found some outlier .(Codes below)
+
+sqft_to_acres = 43560.
+
+print('The average lot is {:,.2f} acres, the median {:,.2f} acres'.format(
+
+df_train['Lot Area'].mean()/sqft_to_acres, df_train['Lot Area'].median()/sqft_to_acres))
+
+print('The biggest lot is {:,.2f} acres, the smallest {:,.2f} acres'.format(
+
+df_train['Lot Area'].max()/sqft_to_acres, df_train['Lot Area'].min()/sqft_to_acres))
+
+(df_train['Lot Area']/sqft_to_acres).hist(bins=50, rwidth=.7, figsize=(8,4))
+
+plt.title('How big are lots? (in acres)')
+
+plt.show()
+
+Below plot shows that Ames seems to have been immune at the Recession time.(Codes are below)
+
+sns.boxplot(x=df_train['Yr Sold'], y=df_train['SalePrice'])
+
+Then I found some interesting on month and year sold which shows the seasonality pattern reflection.
+
+df_train.groupby(['Yr Sold','Mo Sold']).Id.count().plot(kind='bar', figsize=(14,4))
+
+plt.title('When where houses sold?')
+
+plt.show()
+
+Below can find how houses are big with Square Footage wise.(Codes are below)
+
+print('The average house has {:,.0f} sq ft of space, the median {:,.0f} sq ft'.format(
+
+df_train['Gr Liv Area'].mean(), df_train['Gr Liv Area'].median()))
+
+print('The biggest house has {:,.0f} sq ft of space, the smallest {:,.0f} sq ft'.format(
+
+df_train['Gr Liv Area'].max(), df_train['Gr Liv Area'].min()))
+
+df_train['Gr Liv Area'].hist(bins=21, rwidth=.8, figsize=(8,4))
+
+plt.title('How big are houses? (in sq feet)')
+
+plt.show()
+
+Square Footage of Ground Living Area
+
+After doing all of this, I built a linear regression model on my selected features and then used this model on the test split of the data and got an RMSE score, as well as R-squared score for the test data.
+
+Results
+
+My linear regression model did very well. The RMSE was 35792.99 which stands for the calculated difference between each predicted price and the actual price of all the homes.
+
+It had a 0.8586 R-Squared score on the test and a R-Squared score of 0.7974 for the training data. This shows the model is doing a great job of predicting both the training set and the testing set since there is a small drop in the R-Squared score on the testing set. Model is little overfit. Overall, the model is accounting for 85.86% of the variance in the price.
+
+The feature with the highest correlation to sale price was my engineered feature for total square footage. Other important features were the overall quality of the home, Year Re Modification or adding (another feature I engineered), Basement uniform Square feet and lot area.
+
+This is a scatter plot of linearity between actual price against predicted price.(Codes are below)
+
+plt.scatter(df_train['Total_Sqft'], df_train['SalePrice']);
+
+Conclusion
+
+At the end, my initial strategy for feature engineering and selection was good since it performed well. With a RMSE of 35792.99 I am confident that my model can perform adequately when predicting house prices in Ames, Iowa provided enough information about the house features.
+
+Recommendation
+
+By regularizing the model by Lasso or ridge ,model may get more accurate prediction.I would have also possibly looked into creating some interactions. By applying PCA(Principal Component Analysis) method on features may also can give the more accurate prediction .Another feature I could have created was an Age feature which stated the age in years of each home.
+
+By applying my own intuition to my feature selection,I was able to make a model which predicted the prices of the competition data with an RMSE of 35792.99.
+
+This submission placed 25th out of all General Assembly fellows nationwide and placed 2nd position out of all General Assembly fellows local wide.
+
+For details Please visit my GitHub profile below:
+
+https://github.com/upad0412/Kaggle-challenge_Ames-Housing-Project
+Running Bitcoin & Lightning Nodes Over The Tor Network (2021 Edition)
+
+Preface
+
+In 2018 I made a tutorial for getting a Bitcoin full node up and running on Linux, and I provided a complete step-by-step process, along with explainers for how to use & understand the bash shell, and what certain commands and their flags did. It’s been 3 years since, and what you’re reading now is the updated and next iteration of that.
+
+This tutorial is 1 of 3 being published in tandem. The one you’re viewing currently is the primary one, and brings the other two together to run over the Tor network, and connect your phone’s Bitcoin & Lightning wallets to it using Zap iOS over Tor (if you do not have iOS you may skip the Zap aspects of this tutorial, or use the Zap desktop client). The other two function as standalone tutorials for both Bitcoin & Lightning respectively, and they completely break down the entire node installation process for beginners.
+
+The Bitcoin & Lightning sections in this tutorial will be simplified. If you want more detail please reference the standalone guides for each:
+
+Primary:
+
+Running Bitcoin & Lightning Nodes Over The Tor Network
+
+Standalone:
+in In Fitness And In Health

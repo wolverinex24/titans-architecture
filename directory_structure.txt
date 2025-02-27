@@ -1,9 +1,12 @@
 Let me explain the recommended project structure for implementing the Titans MAC architecture. I'll break this down into logical components and explain why each part is organized this way.
 Directory structure for: titans
+Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 ==================================================
-titans/
-│   ├── Readme.text
+
+│   ├── .gitignore
+│   ├── README.md
 │   ├── directory_structure.txt
+│   ├── generate_initPY.py
 │   ├── generate_structure.py
 │   ├── requirements.txt
 │   ├── configs/
@@ -18,26 +21,41 @@ titans/
 │   │   ├── attention/
 │   │   │   ├── __init__.py
 │   │   │   ├── attention_layer.py
-│   │   │   └── attention_utils.py
+│   │   │   ├── attention_utils.py
 │   │   ├── memory/
 │   │   │   ├── __init__.py
 │   │   │   ├── memory_utils.py
 │   │   │   ├── neural_memory.py
-│   │   │   └── persistent_memory.py
+│   │   │   ├── persistent_memory.py
+│   │   │   ├── __pycache__/
+│   │   │   │   ├── __init__.cpython-313.pyc
+│   │   │   │   ├── memory_utils.cpython-313.pyc
+│   │   │   │   ├── neural_memory.cpython-313.pyc
+│   │   │   │   └── persistent_memory.cpython-313.pyc
 │   │   ├── models/
 │   │   │   ├── __init__.py
 │   │   │   ├── mac.py
-│   │   │   └── model_utils.py
+│   │   │   ├── model_utils.py
 │   ├── data/
 │   │   ├── __init__.py
 │   │   ├── dataloader.py
 │   │   ├── dataset.py
-│   │   └── preprocessing.py
+│   │   ├── preprocessing.py
 │   ├── inference/
 │   │   ├── __init__.py
 │   │   ├── batch_inference.py
 │   │   ├── memory_management.py
-│   │   └── predictor.py
+│   │   ├── predictor.py
+│   ├── outputs/
+│   │   ├── train.log
+│   │   ├── checkpoints/
+│   │   │   ├── checkpoint_149.pt
+│   │   │   ├── checkpoint_199.pt
+│   │   │   ├── checkpoint_49.pt
+│   │   │   ├── checkpoint_99.pt
+│   │   │   └── checkpoint_meta.json
+│   ├── processed_data/
+│   │   └── data_processed.pt
 │   ├── scripts/
 │   │   ├── __init__.py
 │   │   ├── evaluate.py
@@ -49,82 +67,25 @@ titans/
 │   │   │   ├── convert_checkpoint.py
 │   │   │   ├── interactive_demo.py
 │   │   │   ├── prepare_data.py
-│   │   │   └── profile_model.py
+│   │   │   ├── profile_model.py
 │   ├── training/
 │   │   ├── __init__.py
 │   │   ├── loss.py
 │   │   ├── optimizer.py
-│   │   └── trainer.py
+│   │   ├── trainer.py
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── loss.cpython-313.pyc
+│   │   │   ├── optimizer.cpython-313.pyc
+│   │   │   └── trainer.cpython-313.pyc
+│   ├── train_data/
+│   │   └── data.txt
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── checkpoint.py
 │   │   ├── config.py
+│   │   ├── config_loader.py
 │   │   ├── data_utils.py
 │   │   ├── logging.py
 │   │   ├── metrics.py
-│   │   └── optimization.py
-
-
-Let me explain each major component and its purpose:
-
-core/ Directory:
-
-Contains the fundamental building blocks of the architecture
-Separated into memory, attention, and models submodules
-Each component is isolated for better testing and maintenance
-
-
-memory/ Submodule:
-
-neural_memory.py: Implementation of the Neural Memory Module
-persistent_memory.py: Fixed knowledge component
-memory_utils.py: Helper functions for memory operations
-
-
-attention/ Submodule:
-
-Contains the attention mechanism implementation
-Utilities for attention computations
-Separate from memory for clear component boundaries
-
-
-training/ Directory:
-
-Handles the training pipeline
-Includes custom optimizers for test-time learning
-Loss functions specific to memory module training
-
-
-inference/ Directory:
-
-Manages inference-time behavior
-Handles test-time memory updates
-Controls memory management during inference
-
-
-utils/ Directory:
-
-General utilities and helper functions
-Configuration management
-Evaluation metrics
-
-
-data/ Directory:
-
-Dataset implementations
-Data loading and processing
-Data augmentation if needed
-
-
-configs/ Directory:
-
-Configuration files for different model variants
-Hyperparameter settings
-Training configurations
-
-
-scripts/ Directory:
-
-Entry points for training, evaluation, and inference
-Command-line interfaces
-Example usage scripts
+│   │   ├── optimization.py
