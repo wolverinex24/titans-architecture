@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Titans: Learning to Memorize at Test Time"
 readme = "README.md"
 authors = [
-    {name = "Priyanshu Singh", email = "singhpriyanshu783@gmail.com"},{"Prikshit Singh", email = "prikshitsingh79@gmail.com"}
+    {name = "Priyanshu Singh", email = "singhpriyanshu783@gmail.com"},{name = "Prikshit Singh", email = "prikshitsingh79@gmail.com"}
 ]
 license = {text = "GPL-3.0"}
 classifiers = [
