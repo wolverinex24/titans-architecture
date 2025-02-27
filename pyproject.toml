@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titans"
+version = "0.1.0"
+description = "Titans: Learning to Memorize at Test Time"
+readme = "README.md"
+authors = [
+    {name = "Priyanshu Singh", email = "singhpriyanshu783@gmail.com"},{name = "Prikshit Singh", email = "prikshitsingh79@gmail.com"}
+]
+license = {text = "GPL-3.0"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GPL-3.0 License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["deep learning", "memory", "transformers", "neural networks","Titans","NMM(Neural Memory Module)"]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=1.13.0",
+    "transformers>=4.25.0",
+    "numpy>=1.20.0",
+    "tqdm>=4.62.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "flake8>=5.0.0",
+    "mkdocs>=1.3.0",
+    "mkdocs-material>=8.2.0",
+]
+examples = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wolverinex24/titans"
+"Bug Tracker" = "https://github.com/wolverinex24/titans/issues"
+"Documentation" = "https://github.com/wolverinex24/titans#readme"
+
+[tool.setuptools]
+packages = ["core", "data", "inference", "scripts", "training", "utils", "tests"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+
+[tool.pyright]
+include = ["titans"]
+exclude = [
+    "**/__pycache__",
+    "**/.pytest_cache",
+]
+reportMissingImports = true
+reportMissingTypeStubs = false
