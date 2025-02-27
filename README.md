@@ -90,6 +90,7 @@ python -m titans.scripts.utils.interactive_demo --checkpoint path/to/checkpoint 
 
 # Run tests
 python scripts/run_tests.py
+
 ```
 
 ## Project Structure
