@@ -1,13 +1,14 @@
-Let me explain the recommended project structure for implementing the Titans MAC architecture. I'll break this down into logical components and explain why each part is organized this way.
-Directory structure for: titans
 Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 ==================================================
 
 │   ├── .gitignore
+│   ├── LICENCE.txt
 │   ├── README.md
+│   ├── Setup.py
 │   ├── directory_structure.txt
 │   ├── generate_initPY.py
 │   ├── generate_structure.py
+│   ├── pyproject.toml
 │   ├── requirements.txt
 │   ├── configs/
 │   │   ├── default_config.yaml
@@ -27,11 +28,6 @@ Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 │   │   │   ├── memory_utils.py
 │   │   │   ├── neural_memory.py
 │   │   │   ├── persistent_memory.py
-│   │   │   ├── __pycache__/
-│   │   │   │   ├── __init__.cpython-313.pyc
-│   │   │   │   ├── memory_utils.cpython-313.pyc
-│   │   │   │   ├── neural_memory.cpython-313.pyc
-│   │   │   │   └── persistent_memory.cpython-313.pyc
 │   │   ├── models/
 │   │   │   ├── __init__.py
 │   │   │   ├── mac.py
@@ -46,20 +42,12 @@ Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 │   │   ├── batch_inference.py
 │   │   ├── memory_management.py
 │   │   ├── predictor.py
-│   ├── outputs/
-│   │   ├── train.log
-│   │   ├── checkpoints/
-│   │   │   ├── checkpoint_149.pt
-│   │   │   ├── checkpoint_199.pt
-│   │   │   ├── checkpoint_49.pt
-│   │   │   ├── checkpoint_99.pt
-│   │   │   └── checkpoint_meta.json
-│   ├── processed_data/
-│   │   └── data_processed.pt
+│   ├── memory_logs/
 │   ├── scripts/
 │   │   ├── __init__.py
 │   │   ├── evaluate.py
 │   │   ├── inference.py
+│   │   ├── run_tests.py
 │   │   ├── train.py
 │   │   ├── utils/
 │   │   │   ├── __init__.py
@@ -68,16 +56,27 @@ Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 │   │   │   ├── interactive_demo.py
 │   │   │   ├── prepare_data.py
 │   │   │   ├── profile_model.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   ├── conftest.py
+│   │   ├── pytest.ini
+│   │   ├── test_attention/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_attention_layer.py
+│   │   │   ├── test_attention_utils.py
+│   │   ├── test_memory/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_memory_utils.py
+│   │   │   ├── test_neural_memory.py
+│   │   │   ├── test_persistent_memory.py
+│   │   ├── test_models/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_mac.py
 │   ├── training/
 │   │   ├── __init__.py
 │   │   ├── loss.py
 │   │   ├── optimizer.py
 │   │   ├── trainer.py
-│   │   ├── __pycache__/
-│   │   │   ├── __init__.cpython-313.pyc
-│   │   │   ├── loss.cpython-313.pyc
-│   │   │   ├── optimizer.cpython-313.pyc
-│   │   │   └── trainer.cpython-313.pyc
 │   ├── train_data/
 │   │   └── data.txt
 │   ├── utils/
@@ -87,5 +86,6 @@ Directory structure for: W:\DLearning\titan\Titan_Architecture\titans
 │   │   ├── config_loader.py
 │   │   ├── data_utils.py
 │   │   ├── logging.py
+│   │   ├── memory_monitor.py
 │   │   ├── metrics.py
 │   │   ├── optimization.py

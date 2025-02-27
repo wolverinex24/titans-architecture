@@ -51,8 +51,7 @@ examples = [
 "Documentation" = "https://github.com/wolverinex24/titans#readme"
 
 [tool.setuptools]
-package-dir = {"" = "."}
-packages = ["titans"]
+packages = ["core", "data", "inference", "scripts", "training", "utils", "tests"]
 
 [tool.black]
 line-length = 100
