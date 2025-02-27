@@ -87,6 +87,9 @@ python -m scripts.inference --checkpoint ./outputs/checkpoints/checkpoint_9.pt -
 
 # Gradio
 python -m titans.scripts.utils.interactive_demo --checkpoint path/to/checkpoint --config small
+
+# Run tests
+python scripts/run_tests.py
 ```
 
 ## Project Structure
@@ -110,6 +113,16 @@ If you use this code, please cite:
   year={2024}
 }
 ```
+```bibtex
+@software{titans2025,
+  author = {Priyanshu Singh, Prikshit Singh},
+  title = {Titans: A PyTorch Implementation of Neural Memory that Learns at Test Time},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/wolverinex24/titans}}
+}
+```
 
 ## License
-MIT License
+GPL-3.0 License
