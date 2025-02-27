@@ -1,2 +1,5 @@
 __pycache__
 outputs
+.coverage
+htmlcov/
+.pytest_cache/

@@ -9,6 +9,8 @@ matplotlib
 scikit-learn
 seaborn
 gradio
+pytest
+pytest-cov
 
 # Training and optimization
 wandb
